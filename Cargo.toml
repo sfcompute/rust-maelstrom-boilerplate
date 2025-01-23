@@ -1,0 +1,9 @@
+[package]
+name = "rust-maelstrom-boilerplate"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+async-trait = "0.1.85"
+maelstrom-node = "0.1.6"
