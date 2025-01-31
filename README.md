@@ -20,11 +20,17 @@ Install Maelstrom:
 ./install_maelstrom.sh
 ```
 
-To run your solution:
+To run your solution, build:
 ```bash
 cargo build
+```
+
+and then run the binary with the maelstrom client:
+```bash
 ./maelstrom/maelstrom test -w echo --bin ./target/debug/rust-maelstrom-boilerplate --node-count 1 --time-limit 10 --log-stderr
 ```
+
+The `-w` flag specifies the workload to use. The starter code is an implementation of the `echo` workload, for others you will need to set this flag accordingly.
 
 ## Helpful Links
 

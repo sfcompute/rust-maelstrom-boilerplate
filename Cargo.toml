@@ -7,3 +7,4 @@ publish = false
 [dependencies]
 async-trait = "0.1.85"
 maelstrom-node = "0.1.6"
+serde = { version = "1.0.215", features = ["derive"] }
